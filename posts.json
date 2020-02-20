@@ -1,0 +1,119 @@
+[
+  {
+    "postId":1,
+    "userId":1,
+    "text":"I'm lost lol",
+    "reactions": {
+      "thumbs up": [1,2,3],
+      "thumbs down":[4],
+      "person bouncing ball": [2, 4, 5],
+      "broken heart": [1,2,3],
+      "see-no-evil monkey":[4],
+      "cat with tears of joy": [2, 4, 5]
+    }
+  },
+  {
+    "postId":2,
+    "userId":2,
+    "text":"Did anyone else find this website?",
+    "reactions":{}
+  },
+  {
+    "postId":3,
+    "userId":3,
+    "text":"on my way to work, gonna pet every dog i see",
+    "reactions":{"thumbs up":[2,4]}
+  },
+  {
+    "postId":4,
+    "userId":1,
+    "text":"like this post if you have no idea what's happening here",
+    "reactions":{"thumbs up":[1,2,3],"thumbs down":[4]}
+  },
+  {"postId":5,"userId":2,"text":"COFFEE IS MY LIFE","reactions":{}},
+  {"postId":6,"userId":3,"text":"I need to shit","reactions":{"thumbs up":[2,4]}},
+  {
+    "postId":7,
+    "userId":1,
+    "text":"I can't stop scrolling",
+    "reactions":{"thumbs up":[1,2,3],"thumbs down":[4]}
+  },
+  {
+    "postId":8,
+    "userId":2,
+    "text":"for lunch I had a week old pasta. it was better than I expected. for lunch I had a week old pasta. it was better than I expected. for lunch I had a week old pasta. it was better than I expected. for lunch I had a week old pasta. it was better than I expected. for lunch I had a week old pasta. it was better than I expected",
+    "reactions":{}
+  },
+  {"postId":9,"userId":3,"text":"Im gay!","reactions":{"thumbs up":[2,4]}},
+  {
+    "postId":10,
+    "userId":1,
+    "text":"My battery is dying and I don't have a charger :(",
+    "reactions":{"thumbs up":[1,2,3],"thumbs down":[4]}
+  },
+  {"postId":11,"userId":2,"text":"why do my family hate me?","reactions":{}},
+  {
+    "postId":12,
+    "userId":3,
+    "text":"lmao im drunk somebodt flirt with me",
+    "reactions":{"thumbs up":[2,4]}
+  },
+  {
+    "postId":13,
+    "userId":1,
+    "text":"You all kow that this world is doomed, right?",
+    "reactions":{"thumbs up":[1,2,3],"thumbs down":[4]}
+  },
+  {
+    "postId":14,
+    "userId":2,
+    "text":"like this post if your toenails smell funny",
+    "reactions":{}
+  },
+  {
+    "postId":15,
+    "userId":3,
+    "text":"Where are the memes???",
+    "reactions":{"thumbs up":[2,4]}
+  },
+  {
+    "postId":16,
+    "userId":1,
+    "text":"Everyone Is Addicted To Something",
+    "reactions":{"thumbs up":[1,2,3],"thumbs down":[4]}
+  },
+  {"postId":17,"userId":2,"text":"I like it here","reactions":{}},
+  {"postId":18,"userId":3,"text":"life sucks","reactions":{"thumbs up":[2,4]}},
+  {
+    "postId":19,
+    "userId":1,
+    "text":"I am a post",
+    "reactions":{"thumbs up":[1,2,3],"thumbs down":[4]}
+  },
+  {"postId":20,"userId":2,"text":"I like it here","reactions":{}},
+  {"postId":21,"userId":3,"text":"life sucks","reactions":{"thumbs up":[2,4]}},
+  {
+    "postId":21,
+    "userId":1,
+    "text":"I am a post",
+    "reactions":{"thumbs up":[1,2,3],"thumbs down":[4]}
+  },
+  {"postId":22,"userId":2,"text":"I like it here","reactions":{}},
+  {"postId":23,"userId":3,"text":"life sucks","reactions":{"thumbs up":[2,4]}},
+  {
+    "postId":24,
+    "userId":1,
+    "text":"I am a post",
+    "reactions":{"thumbs up":[1,2,3],"thumbs down":[4]}
+  },
+  {"postId":25,"userId":2,"text":"I like it here","reactions":{}},
+  {"postId":26,"userId":3,"text":"life sucks","reactions":{"thumbs up":[2,4]}},
+  {
+    "postId":27,
+    "userId":1,
+    "text":"I am a post",
+    "reactions":{"thumbs up":[1,2,3],"thumbs down":[4]}
+  },
+  {"postId":28,"userId":2,"text":"I like it here","reactions":{}},
+  {"postId":29,"userId":3,"text":"life sucks","reactions":{"thumbs up":[2,4]}}
+]

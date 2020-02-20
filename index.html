@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Thing</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <script src="lib/p5.js"></script>
+    <script src="lib/p5.sound.js"></script>
+    <script src="sketch.js"></script> -->
+    <script src="database.js" defer></script>
+    <script src="touchService.js" defer></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body onclick="bodyClicked()">
+    <div id="canvas"></div>
+    <svg>
+      <filter id="smudge">
+        <feGaussianBlur  in="SourceGraphic" edgeMode="duplicate" stdDeviation="10"/>
+      </filter>
+    </svg>
+
+    <section class="content">
+      <div class="post last-post">
+        <!-- <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div> -->
+
+        <div class="user">
+          <img class="avatar" src="https://api.adorable.io/avatars/285/vghrhg@adorable.io.png">
+          <span class="nick">Ilay Skutelsky</span>
+        </div>
+        <span class="text">
+          like this post if your toenails smell funny
+        </span>
+         <div class="reactions-cotainer"></div>
+        <button type="button" class="react-btn" onclick="reactBtnClicked(event, this)">
+          <img src="./lib/openmoji-svg-color/1F44D.svg" height="35px"></img>
+          <div class="reactions-menu"> </div>
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
