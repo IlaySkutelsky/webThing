@@ -148,11 +148,11 @@ svg path {
   border-radius: 50%;
   background-color: transparent;
   cursor: pointer;
-  transition: all 400ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
-.react-btn:active {
-  transform: scale(1.1) rotate(5deg);
+.react-btn:active .like-emoji, .react-btn:hover .like-emoji {
+  animation: 600ms buttonPress;
 }
 
 .react-btn img {
@@ -161,12 +161,14 @@ svg path {
 
 .react-btn .reactions-menu {
   opacity: 0;
-  padding: 1em;
+  padding: 0.3em;
   max-width: var(--posts-width);
   background-color: blue;
   position: absolute;
   right: 0;
   transition: 500ms;
+  display: flex;
+
 }
 
 .react-btn .reactions-menu:empty {
@@ -174,9 +176,17 @@ svg path {
 }
 
 .react-btn .reactions-menu.shown {
-  animation: 300ms fadeAndSwipe forwards;
+  animation: 3100ms fadeAndSwipe forwards;
   transition: 500ms;
 }
+
+.react-btn .reactions-menu img {
+  filter: drop-shadow(1px 1px 0px #fff)
+          drop-shadow(-1px 1px 0px #fff)
+          drop-shadow(1px -1px 0px #fff)
+          drop-shadow(-1px -1px 0px #fff);
+}
+
 
 /* ------------- Animations ------------- */
 @keyframes flashing {
@@ -210,5 +220,17 @@ svg path {
    }
    100% {
       opacity: 1;
+   }
+}
+
+@keyframes buttonPress {
+   0% {
+     transform: scale(1) rotate(0deg);
+   }
+   50% {
+      transform: scale(1.3) rotate(10deg);
+   }
+   100% {
+      transform: scale(1) rotate(0deg);
    }
 }

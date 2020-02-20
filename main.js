@@ -99,7 +99,7 @@ function intersectionCallback(entries, observer) {
   // console.log("intersected");
   // console.log(entries);
   if (entries[0].isIntersecting) {
-    // setTimeout(loadPosts, random(1000, 4000))
+    setTimeout(loadPosts, random(1000, 4000))
   }
   if (window.USER_IS_TOUCHING ) paintCanvas()
 }
