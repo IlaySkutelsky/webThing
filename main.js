@@ -18,7 +18,7 @@ function renderSVG(shapePoints) {
   newElement.setAttribute("d",`M ${startPoint.x},${startPoint.y}
                                Q ${x1},${y1} ${endPoint.x}, ${endPoint.y}
                                Q ${x2},${y2} ${startPoint.x}, ${startPoint.y}`);
-  newElement.style.fill = "#00502060"; //Set stroke colour
+  newElement.style.fill = "#00502040"; //Set stroke colour
   newElement.style.filter = "url(#smudge)";
   svg.appendChild(newElement);
 }
