@@ -21,6 +21,16 @@ loadJSON('lib/openmoji.json', (data) => {
   emojis = JSON.parse(data)
 })
 
+function getEmojiCode(annotation) {
+  let emoji = emojis.find(emoji => emoji.annotation == annotation);
+  return emoji.hexcode
+}
+
+function getEmojiAnnotation(code) {
+  let emoji = emojis.find(emoji => emoji.hexcode == code);
+  return emoji.annotation
+}
+
 
 if (!window.indexedDB) {
     console.log("Your browser doesn't support a stable version of IndexedDB. Such and such feature will not be available.");

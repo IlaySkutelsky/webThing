@@ -33,16 +33,22 @@
         <span class="text">
           like this post if your toenails smell funny
         </span>
-         <div class="reactions-cotainer"></div>
+        <div class="reactions-cotainer">
+          <div class="reaction-container">
+            <img src="./lib/openmoji-svg-black/1F44D.svg"></img>
+            <span class="amount amount-1F44D">2</span>
+          </div>
+        </div>
         <button type="button" class="react-btn" onclick="reactBtnClicked(event, this)">
           <img class="like-emoji" src="./lib/openmoji-svg-color/1F44D.svg"></img>
           <div class="reactions-menu">
-            <img src="./lib/openmoji-svg-color/1F44D.svg"></img>
-            <img src="./lib/openmoji-svg-color/1F63B.svg"></img>
-            <img src="./lib/openmoji-svg-color/1F49D.svg"></img>
-            <img src="./lib/openmoji-svg-color/1F4A6.svg"></img>
+            <img src="./lib/openmoji-svg-color/1F44D.svg" onclick="handleReaction(event, this)"></img>
+            <img src="./lib/openmoji-svg-color/1F63B.svg" onclick="handleReaction(event, this)"></img>
+            <img src="./lib/openmoji-svg-color/1F49D.svg" onclick="handleReaction(event, this)"></img>
+            <img src="./lib/openmoji-svg-color/1F4A6.svg" onclick="handleReaction(event, this)"></img>
           </div>
         </button> -->
+
       </div>
     </section>
   </body>
