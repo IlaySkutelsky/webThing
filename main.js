@@ -1,6 +1,7 @@
 let state = {
   reactions: ["1F44D", "1F44E", "1F496", "1F602", "1F62E", "1F622", "1F620"],
-  userId: 999
+  userId: 999,
+  deviceBeta: 0
 }
 
 
@@ -185,14 +186,15 @@ function handleOrientation(e) {
   let y = e.beta
   if (y >  90) y =  90;
   if (y < -90) y = -90;
-  scrollByOrientation(y)
+  state.deviceBeta = y;
 }
 
-function scrollByOrientation(y) {
+function scrollByOrientation() {
   window.scrollBy({
-    top: y*2,
+    top: state.deviceBeta*2,
     behavior: 'smooth'
   });
+  setTimeout(scrollByOrientation, 200)
 }
 
 // function sleep(ms) {
