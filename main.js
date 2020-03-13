@@ -191,7 +191,7 @@ function handleOrientation(e) {
 
 function scrollByOrientation() {
   window.scrollBy({
-    top: state.deviceBeta*5,
+    top: state.deviceBeta*3,
     behavior: 'smooth'
   });
   setTimeout(scrollByOrientation, 200)
