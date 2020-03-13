@@ -46,13 +46,70 @@ svg path {
   animation: 1s fadeIn;
 }
 
+
+/* ------------- Header ------------- */
+
+header {
+  width: 100%;
+  height: 2.8em;
+  background-color: blue;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+}
+
+header .logo {
+  height: 100%;
+  margin: 0 1em;
+  filter: drop-shadow(1px 1px 0px #fff5)
+          drop-shadow(-1px 1px 0px #fff5)
+          drop-shadow(1px -1px 0px #fff5)
+          drop-shadow(-1px -1px 0px #fff5);
+
+}
+
+header .title {
+  margin: 0;
+  font-size: 2em;
+  filter: drop-shadow(1px 1px 0px #fff5)
+          drop-shadow(-1px 1px 0px #fff5)
+          drop-shadow(1px -1px 0px #fff5)
+          drop-shadow(-1px -1px 0px #fff5);
+  line-height: 150%;
+  letter-spacing: -3px;
+  transform: skewX(10deg);
+}
+
+/* ------------- Notifications ------------- */
+
+.notifications-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;;
+}
+
+.notification {
+  background: #12345675;
+  width: 80%;
+  text-align: center;
+  padding: 3px;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* ------------- Posts ------------- */
+
 .content {
   height: 100%;
   width: 80%;
   margin: 0 auto;
 }
-
-/* ------------- Posts ------------- */
 
 .post {
   position: relative;

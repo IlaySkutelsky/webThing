@@ -1,5 +1,5 @@
 let state = {
-  reactions: ["thumbs up"],
+  reactions: ["1F44D", "1F44E", "1F496", "1F602", "1F62E", "1F622", "1F620"],
   userId: 999
 }
 
@@ -63,6 +63,8 @@ function getPostHTML(postData) {
   let postElm = document.createElement('div');
   let postReactedWith = postData.userReactedWith
   let user = users.find(user => user.id === postData.userId)
+
+
   htmlString = `
     <div class="user">
       <img class="avatar" src="https://api.adorable.io/avatars/285/${user.id}@adorable.io.png">
@@ -75,15 +77,21 @@ function getPostHTML(postData) {
     <button type="button" class="react-btn${postReactedWith? ' reacted' : ''}" onclick="reactBtnClicked(event, this)">
       <img src="./lib/openmoji-svg-color/${postReactedWith || '1F44D'}.svg"></img>
       <div class="reactions-menu">
-        <img src="./lib/openmoji-svg-color/1F44D.svg" data-id="1F44D" onclick="handleReaction(event, this)"></img>
-        <img src="./lib/openmoji-svg-color/1F63B.svg" data-id="1F63B" onclick="handleReaction(event, this)"></img>
-        <img src="./lib/openmoji-svg-color/1F49D.svg" data-id="1F49D" onclick="handleReaction(event, this)"></img>
-        <img src="./lib/openmoji-svg-color/1F4A6.svg" data-id="1F4A6" onclick="handleReaction(event, this)"></img>
+        ${getReactionsHTML()}
       </div>
     </button>
   `
 
   return htmlString
+}
+
+function getReactionsHTML() {
+  let htmlStr = ''
+  for (var i = 0; i < state.reactions.length; i++) {
+    let reaction = state.reactions[i]
+    htmlStr += `<img src="./lib/openmoji-svg-color/${reaction}.svg" data-id="${reaction}" onclick="handleReaction(event, this)"></img>`
+  }
+  return htmlStr
 }
 
 function reactBtnClicked(event, elm) {
@@ -151,14 +159,14 @@ function intersectionCallback(entries, observer) {
   if (entries[0].isIntersecting) {
     setTimeout(loadPosts, random(1000, 4000))
   }
-  if (window.USER_IS_TOUCHING ) paintCanvas()
+  // if (window.USER_IS_TOUCHING ) paintCanvas()
 }
 
-function paintCanvas() {
-  let scrolledDistance = window.pageYOffset
-  let canvasElm = document.getElementById("canvas");
-
-}
+// function paintCanvas() {
+//   let scrolledDistance = window.pageYOffset
+//   let canvasElm = document.getElementById("canvas");
+//
+// }
 
 function noMoreContent() {
   console.log("no more content");
