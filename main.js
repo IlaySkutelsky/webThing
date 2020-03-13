@@ -178,6 +178,23 @@ function random(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+window.addEventListener("deviceorientation", handleOrientation, true);
+
+function handleOrientation(e) {
+  console.log(e);
+  let y = e.beta
+  if (y >  90) y =  90;
+  if (y < -90) y = -90;
+  scrollByOrientation(y)
+}
+
+function scrollByOrientation(y) {
+  window.scrollBy({
+    top: y*2,
+    behavior: 'smooth'
+  });
+}
+
 // function sleep(ms) {
 //   return new Promise(resolve => setTimeout(resolve, ms));
 // }
