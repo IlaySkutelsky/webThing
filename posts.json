@@ -41,7 +41,7 @@
   {
     "postId":8,
     "userId":2,
-    "text":"for lunch I had a week old pasta. it was better than I expected. for lunch I had a week old pasta. it was better than I expected. for lunch I had a week old pasta. it was better than I expected. for lunch I had a week old pasta. it was better than I expected. for lunch I had a week old pasta. it was better than I expected",
+    "text":"for lunch I had a week old pasta. it was better than I expected.",
     "reactions":{}
   },
   {"postId":9,"userId":3,"text":"Im gay!","reactions":{"1F44D":[2,4]}},
@@ -82,38 +82,93 @@
     "text":"Everyone Is Addicted To Something",
     "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
   },
-  {"postId":17,"userId":2,"text":"I like it here","reactions":{}},
-  {"postId":18,"userId":3,"text":"life sucks","reactions":{"1F44D":[2,4]}},
+  {"postId":17,"userId":2,"text":"I fuck music","reactions":{}},
+  {"postId":18,"userId":3,"text":"I it hate when people tell me what to do","reactions":{"1F44D":[2,4]}},
   {
     "postId":19,
     "userId":1,
-    "text":"I am a post",
+    "text":"I am",
     "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
   },
-  {"postId":20,"userId":2,"text":"I like it here","reactions":{}},
-  {"postId":21,"userId":3,"text":"life sucks","reactions":{"1F44D":[2,4]}},
+  {"postId":20,"userId":2,"text":"I","reactions":{}},
+  {"postId":21,"userId":3,"text":"I am a stranger","reactions":{"1F44D":[2,4]}},
   {
     "postId":21,
     "userId":1,
-    "text":"I am a post",
+    "text":"I am a stranger writing a post",
     "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
   },
-  {"postId":22,"userId":2,"text":"I like it here","reactions":{}},
-  {"postId":23,"userId":3,"text":"life sucks","reactions":{"1F44D":[2,4]}},
+  {"postId":22,"userId":2,"text":"I am a stranger writing a post for stranger to read","reactions":{}},
+  {"postId":23,"userId":3,"text":"will the pain ever stop","reactions":{"1F44D":[2,4]}},
   {
     "postId":24,
     "userId":1,
-    "text":"I am a post",
+    "text":"This is an outrage",
     "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
   },
-  {"postId":25,"userId":2,"text":"I like it here","reactions":{}},
-  {"postId":26,"userId":3,"text":"life sucks","reactions":{"1F44D":[2,4]}},
+  {"postId":25,"userId":2,"text":"The politics are bad","reactions":{}},
+  {"postId":26,"userId":3,"text":"I'm horny all the time","reactions":{"1F44D":[2,4]}},
   {
     "postId":27,
     "userId":1,
-    "text":"I am a post",
+    "text":"feed me",
     "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
   },
-  {"postId":28,"userId":2,"text":"I like it here","reactions":{}},
-  {"postId":29,"userId":3,"text":"life sucks","reactions":{"1F44D":[2,4]}}
+  {"postId":28,"userId":2,"text":"Buy my product today! I love it and you will too","reactions":{}},
+  {"postId":29,"userId":3,"text":"I do sport twice a week!!!","reactions":{"1F44D":[2,4]}},
+  {
+    "postId":30,
+    "userId":1,
+    "text":"I need money again",
+    "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
+  },
+  {"postId":31,"userId":2,"text":"fuck the cops","reactions":{}},
+  {"postId":32,"userId":3,"text":"think about the goats","reactions":{"1F44D":[2,4]}},
+  {
+    "postId":33,
+    "userId":1,
+    "text":"i put my hands in fire",
+    "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
+  },
+  {"postId":34,"userId":2,"text":"I would fuck shrek if I could","reactions":{}},
+  {"postId":35,"userId":3,"text":"i will block and unfollow you if you experience good things ","reactions":{"1F44D":[2,4]}},
+  {
+    "postId":36,
+    "userId":1,
+    "text":"god can suck my ass",
+    "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
+  },
+  {"postId":37,"userId":2,"text":"My T-shirts are very cheap, buy one today! Free delivery, send mr a message","reactions":{}},
+  {"postId":38,"userId":3,"text":"I don't believe in science and neither should you","reactions":{"1F44D":[2,4]}},
+  {
+    "postId":39,
+    "userId":1,
+    "text":"u need to pay for your crimes",
+    "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
+  },
+  {"postId":40,"userId":2,"text":"I can go back in time but  I don't want to","reactions":{}},
+  {"postId":41,"userId":3,"text":"im not like those other guys.","reactions":{"1F44D":[2,4]}},
+  {
+    "postId":42,
+    "userId":1,
+    "text":"I cry over werewolves",
+    "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
+  },
+  {"postId":43,"userId":2,"text":"f","reactions":{}},
+  {"postId":44,"userId":3,"text":"fuck","reactions":{"1F44D":[2,4]}},
+  {
+    "postId":45,
+    "userId":1,
+    "text":"fuck this",
+    "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
+  },
+  {"postId":46,"userId":2,"text":"fuck this website","reactions":{}},
+  {"postId":47,"userId":3,"text":"fuck this website and evreyone using it","reactions":{"1F44D":[2,4]}},
+  {
+    "postId":48,
+    "userId":1,
+    "text":"im logging off",
+    "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
+  },
+  {"postId":49,"userId":2,"text":"goodbye","reactions":{}}
 ]

@@ -10,8 +10,8 @@ loadJSON('posts.json', (data) => {
 })
 
 loadJSON('users.json', (data) => {
-  console.log("got json data:");
-  console.log(JSON.parse(data));
+  // console.log("got json data:");
+  // console.log(JSON.parse(data));
   users = JSON.parse(data)
 })
 
@@ -41,13 +41,13 @@ let postsRequest = window.indexedDB.open("database", 1);
 
 postsRequest.onerror = function(event) {
   // Do something with request.errorCode!
-  console.log("postsRequest got error:");
-  console.log(event);
+  // console.log("postsRequest got error:");
+  // console.log(event);
 };
 postsRequest.onsuccess = function(event) {
   // Do something with request.result!
-  console.log("postsRequest got success:");
-  console.log(event);
+  // console.log("postsRequest got success:");
+  // console.log(event);
   db = event.target.result;
   handleDB()
 };

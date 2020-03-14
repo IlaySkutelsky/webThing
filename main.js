@@ -171,6 +171,8 @@ function intersectionCallback(entries, observer) {
 
 function noMoreContent() {
   console.log("no more content");
+  let lastPostElm = document.querySelector("div.last-post");
+  lastPostElm.style.display = 'none'
 }
 
 function random(min, max) {
