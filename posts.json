@@ -83,14 +83,14 @@
     "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
   },
   {"postId":17,"userId":2,"text":"I fuck music","reactions":{}},
-  {"postId":18,"userId":3,"text":"I it hate when people tell me what to do","reactions":{"1F44D":[2,4]}},
+  {"postId":18,"userId":3,"text":"I hate it when people tell me what to do","reactions":{"1F44D":[2,4]}},
   {
     "postId":19,
     "userId":1,
-    "text":"I am",
+    "text":"I",
     "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
   },
-  {"postId":20,"userId":2,"text":"I","reactions":{}},
+  {"postId":20,"userId":2,"text":"I am","reactions":{}},
   {"postId":21,"userId":3,"text":"I am a stranger","reactions":{"1F44D":[2,4]}},
   {
     "postId":21,
@@ -98,7 +98,7 @@
     "text":"I am a stranger writing a post",
     "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
   },
-  {"postId":22,"userId":2,"text":"I am a stranger writing a post for stranger to read","reactions":{}},
+  {"postId":22,"userId":2,"text":"I am a stranger writing a post for strangers to read","reactions":{}},
   {"postId":23,"userId":3,"text":"will the pain ever stop","reactions":{"1F44D":[2,4]}},
   {
     "postId":24,
@@ -115,7 +115,7 @@
     "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
   },
   {"postId":28,"userId":2,"text":"Buy my product today! I love it and you will too","reactions":{}},
-  {"postId":29,"userId":3,"text":"I do sport twice a week!!!","reactions":{"1F44D":[2,4]}},
+  {"postId":29,"userId":3,"text":"I do sports twice a week!!!","reactions":{"1F44D":[2,4]}},
   {
     "postId":30,
     "userId":1,
@@ -123,11 +123,11 @@
     "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
   },
   {"postId":31,"userId":2,"text":"fuck the cops","reactions":{}},
-  {"postId":32,"userId":3,"text":"think about the goats","reactions":{"1F44D":[2,4]}},
+  {"postId":32,"userId":3,"text":"i put my hands in fire","reactions":{"1F44D":[2,4]}},
   {
     "postId":33,
     "userId":1,
-    "text":"i put my hands in fire",
+    "text":"think about the goats",
     "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
   },
   {"postId":34,"userId":2,"text":"I would fuck shrek if I could","reactions":{}},
@@ -163,7 +163,7 @@
     "reactions":{"1F44D":[1,2,3],"1F44E":[4]}
   },
   {"postId":46,"userId":2,"text":"fuck this website","reactions":{}},
-  {"postId":47,"userId":3,"text":"fuck this website and evreyone using it","reactions":{"1F44D":[2,4]}},
+  {"postId":47,"userId":3,"text":"fuck this website and everyone using it","reactions":{"1F44D":[2,4]}},
   {
     "postId":48,
     "userId":1,
