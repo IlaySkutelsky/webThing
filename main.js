@@ -29,7 +29,7 @@ function loadPosts() {
   if (!posts) return
   let contentElm = document.querySelector("section.content");
   let lastPostElm = document.querySelector("div.last-post");
-  let amountOfPosts = random(3,7)
+  let amountOfPosts = random(4,7)
   for (let i = 0; i < amountOfPosts; i++) {
     if (!posts[nextItem-1]) {
       noMoreContent()
@@ -181,7 +181,7 @@ function random(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-window.addEventListener("deviceorientation", handleOrientation, true);
+// window.addEventListener("deviceorientation", handleOrientation, true);
 
 function handleOrientation(e) {
   console.log(e);

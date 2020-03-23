@@ -3,7 +3,7 @@ let posts
 let users
 let emojis
 
-loadJSON('posts.json', (data) => {
+loadJSON('posts2.json', (data) => {
   // console.log("got json data:");
   // console.log(JSON.parse(data));
   posts = JSON.parse(data)
