@@ -68,7 +68,7 @@ function getPostHTML(postData) {
 
   htmlString = `
     <div class="user">
-      <img class="avatar" src="https://api.adorable.io/avatars/285/${user.id}@adorable.io.png">
+      <img class="avatar" src="https://avatars.dicebear.com/api/bottts/${user.id}.svg">
       <span class="nick">${user.username}</span>
     </div>
     <span class="text">
